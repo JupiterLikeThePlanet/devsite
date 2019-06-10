@@ -6,4 +6,13 @@ const router = express.Router();
 // @access Public
 router.get('/', (req, res) => res.send('User Route'));
 
+
+// @route Post api/users
+// @desc Register user (create user)
+// @access Public
+// router.post('/register', (req, res) => {
+//     console.log(req.body)
+//     res.send('User Route'))
+// });
+
 module.exports = router;
